@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(67,78,110);
+}
+
+#main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-section{
+    flex: 1;
+    color: white;
+    padding:200px 70px;
+    
+}
+span{
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(227,204,161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 67px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+hr{
+    margin-bottom:30px;
+}
+p{
+    font-family:system-ui;
+    font-weight: 500;
+    color: rgb(232, 216, 190);
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+button{
+    background-color: rgb(227, 204, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    font-size: 16px;
+    padding: 15px 40px;
+    font-weight: bolder;
+    color: rgb(67,78,110);
+    cursor: pointer;
+}
+strong{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 10px;
+}
+
+
+
+                        /* Right Part */
+
+
+
+#right-section{
+    flex: 1;
+    margin-right: 70px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.diagonal-pic img{
+position: absolute;
+padding-top: 5px;
+margin-left: 300px;
+}
+
+.solid-line-pic{
+position: absolute;
+padding-top: 50px;
+margin-left: 100px ;
+}
+
+.lay-pic{
+    position: absolute;
+    margin-top: 400px;
+}
+
+.picture{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.picture img{
+    height: 555px;
+    width: 530px;
+}
+
+.mark2-pic{
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 307px;
+    margin-right: 10px;
+}
+
+.text-pic{
+    color: white;
+    position: absolute;
+    margin-top: 647px;
+    margin-left: 307px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-family:sans-serif;
+}
